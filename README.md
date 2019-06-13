@@ -14,8 +14,16 @@ Live Demos are hosted on `workers-tooling.cf/demos/router`:
 
 To generate using [wrangler](https://github.com/cloudflare/wrangler)
 
-```basg
+```bash
 wrangler generate myApp https://github.com/13rac1/cloudflare-ts-worker-template-router
+```
+
+Build and preview:
+
+```bash
+cd myApp
+npm i
+wrangler preview
 ```
 
 ## Serverless

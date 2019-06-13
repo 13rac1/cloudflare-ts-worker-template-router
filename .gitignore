@@ -1,4 +1,4 @@
 node_modules/
-dist
+worker
 .cargo-ok
 package-lock.json
